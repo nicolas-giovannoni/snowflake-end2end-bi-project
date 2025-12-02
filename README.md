@@ -1,8 +1,7 @@
-# snowflake-end2end-bi-project
+
 Un proyecto end-to-end que integra Snowflake y Looker Studio para analizar la performance de agencias de cobranza. Incluye ingesta desde CSV, modelo estrella, vistas analíticas y dashboards ejecutivos con métricas de recupero, eficiencia, contactabilidad y calidad operativa.
 
-# ❄️ Snowflake End-to-End BI Project  
-# Snowflake End-to-End BI Project
+# Snowflake End-to-End BI Project  
 
 Este proyecto integra **Snowflake** y **Looker Studio** para analizar la performance de distintas agencias de cobranza.
 
@@ -25,9 +24,9 @@ Incluye:
 - CSV (dataset sintético)
 
 ##  Contenido del repositorio
-- `/sql` → Scripts de creación de tablas y vistas  
-- `/images` → Capturas de los dashboards  
-- `/docs` → Documentación del proyecto  
+- `/sql` Scripts de creación de tablas y vistas  
+- `/images` Capturas de los dashboards  
+- `/docs` Documentación del proyecto  
 
 ##  Dashboards creados
 **Página 1 – Panel Ejecutivo**
@@ -53,7 +52,11 @@ Este trabajo replica una prueba técnica típica para roles de
 
 ##  Capturas
 
-## 📸 Capturas del dashboard
+### Diagrama lógico
+
+![Diagrama_lofico](images/diagrama_logico.png)
+
+### Capturas del dashboard
 
 ### Página 1
 ![Dashboard Ejecutivo](images/dashboard_p1.png)
