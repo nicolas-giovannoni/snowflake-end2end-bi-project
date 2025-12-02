@@ -64,7 +64,8 @@ Este trabajo replica una prueba técnica típica para roles de
 ### Página 2
 ![Calidad Operativa](images/dashboard_p2.png)
 
-### PARchivos .csv
+### Archivos .csv
+
 [dim_agencia](csv/dim_agencia.csv)
 
 [dim_operacion](csv/dim_operacion.csv)
