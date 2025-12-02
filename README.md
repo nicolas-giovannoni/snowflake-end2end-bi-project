@@ -2,51 +2,54 @@
 Un proyecto end-to-end que integra Snowflake y Looker Studio para analizar la performance de agencias de cobranza. Incluye ingesta desde CSV, modelo estrella, vistas analíticas y dashboards ejecutivos con métricas de recupero, eficiencia, contactabilidad y calidad operativa.
 
 # ❄️ Snowflake End-to-End BI Project  
-### Recupero & Eficiencia Operativa – Snowflake + Looker Studio
+# Snowflake End-to-End BI Project
 
-![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
-![BI](https://img.shields.io/badge/Tech-Snowflake-blue)
-![Looker Studio](https://img.shields.io/badge/Visualization-Looker%20Studio-blueviolet)
-![SQL](https://img.shields.io/badge/Language-SQL-lightgrey)
+Este proyecto integra **Snowflake** y **Looker Studio** para analizar la performance de distintas agencias de cobranza.
 
----
+Incluye:
 
-## 📌 Descripción
-
-Este proyecto implementa un pipeline **end-to-end** utilizando **Snowflake** como Data Warehouse y **Looker Studio** como herramienta de visualización.
-
-A partir de datos sintéticos de gestión y pagos, se construye:
-
-- Un **modelo estrella** (dimensiones + hechos)
-- Proceso de **ingesta desde CSV** mediante un Stage interno
-- **Vistas analíticas** optimizadas para BI
+- Carga de datos desde CSV a un Stage interno
+- Modelo en **esquema estrella** (dimensiones + hechos)
+- Vistas analíticas mensuales para BI
 - Dashboards ejecutivos con métricas clave:
-  - Recupero por agencia  
-  - Eficiencia sobre stock  
-  - Contactabilidad  
-  - Promesas  
-  - Volumen total de gestiones  
-  - Calidad operativa mensual  
+  - Recupero por agencia
+  - Eficiencia sobre stock
+  - Contactabilidad
+  - Promesas
+  - Volumen total de gestiones
 
-Este proyecto replica el tipo de ejercicio que suelen solicitar consultoras de Data & Analytics (PowerData, Globant, Accenture, etc.) para roles de **Data Engineer, Analytics Engineer o BI Developer**.
+## Tecnologías
+- Snowflake  
+- SQL  
+- Looker Studio  
+- CSV (dataset sintético)
 
----
+##  Contenido del repositorio
+- `/sql` → Scripts de creación de tablas y vistas  
+- `/images` → Capturas de los dashboards  
+- `/docs` → Documentación del proyecto  
 
-## 📚 Tabla de Contenidos
+##  Dashboards creados
+**Página 1 – Panel Ejecutivo**
+- Recupero total  
+- Eficiencia (%)  
+- Gestiones (#)  
+- Recupero por agencia
 
-1. [Arquitectura General](#arquitectura-general)  
-2. [Modelo Estrella](#modelo-estrella)  
-3. [Ingesta de Datos](#ingesta-de-datos)  
-4. [SQL del Modelo](#sql-del-modelo)  
-5. [Vista Analítica Principal](#vista-analítica-principal)  
-6. [Dashboards](#dashboards)  
-7. [Capturas](#capturas)  
-8. [Cómo reproducir el proyecto](#cómo-reproducir-el-proyecto)  
-9. [Próximos pasos](#próximos-pasos)  
+**Página 2 – Calidad Operativa**
+- Contactabilidad por mes  
+- Promesas por mes  
+- Gestiones vs Contactos vs Promesas  
+- Tabla operativa mensual
 
----
+##  Resumen del proyecto
+Este trabajo replica una prueba técnica típica para roles de  
+**Data Engineer / Analytics Engineer / BI Developer**, donde se evalúa:
 
-## 🏗️ Arquitectura General
+- carga y transformación de datos en Snowflake,  
+- modelado dimensional,  
+- creación de vistas analíticas,  
+- y construcción de dashboards claros y ejecutivos.
 
-Diagrama conceptual del flujo:
+##  Capturas
 
