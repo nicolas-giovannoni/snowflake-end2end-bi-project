@@ -53,3 +53,12 @@ Este trabajo replica una prueba técnica típica para roles de
 
 ##  Capturas
 
+## 📸 Capturas del dashboard
+
+### Página 1
+![Dashboard Ejecutivo](images/dashboard_p1.png)
+
+### Página 2
+![Calidad Operativa](images/dashboard_p2.png)
+
+
