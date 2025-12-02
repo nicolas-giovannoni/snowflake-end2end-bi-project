@@ -64,4 +64,7 @@ Este trabajo replica una prueba técnica típica para roles de
 ### Página 2
 ![Calidad Operativa](images/dashboard_p2.png)
 
+##  Autor
+
+[Nicolás Giovannoni](https://www.linkedin.com/in/nicolas-giovannoni2806/)
 
