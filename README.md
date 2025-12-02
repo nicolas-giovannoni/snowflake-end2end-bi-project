@@ -64,6 +64,17 @@ Este trabajo replica una prueba técnica típica para roles de
 ### Página 2
 ![Calidad Operativa](images/dashboard_p2.png)
 
+### PARchivos .csv
+[dim_agencia](csv/dim_agencia.csv)
+
+[dim_operacion](csv/dim_operacion.csv)
+
+[dim_tiempo](csv/dim_tiempo.csv)
+
+[fact_gestion](csv/fact_gestion.csv)
+
+[fact_pago](csv/fact_pago.csv)
+
 ##  Autor
 
 [Nicolás Giovannoni](https://www.linkedin.com/in/nicolas-giovannoni2806/)
