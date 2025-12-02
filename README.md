@@ -42,13 +42,12 @@ Incluye:
 - Tabla operativa mensual
 
 ##  Resumen del proyecto
-Este trabajo replica una prueba técnica típica para roles de  
-**Data Engineer / Analytics Engineer / BI Developer**, donde se evalúa:
+Este trabajo replica una prueba técnica típica donde se evalúa:
 
 - carga y transformación de datos en Snowflake,  
 - modelado dimensional,  
 - creación de vistas analíticas,  
-- y construcción de dashboards claros y ejecutivos.
+- construcción de dashboards claros y ejecutivos.
 
 ##  Capturas
 
