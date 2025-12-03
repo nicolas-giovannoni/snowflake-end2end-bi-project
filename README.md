@@ -53,7 +53,7 @@ Este trabajo replica una prueba técnica típica donde se evalúa:
 
 ### Diagrama lógico
 
-![Diagrama_lofico](images/diagrama_logico.png)
+![Diagrama_logico](images/diagrama_logico.png)
 
 ### Capturas del dashboard
 
