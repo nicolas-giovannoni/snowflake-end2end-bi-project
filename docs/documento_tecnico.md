@@ -154,6 +154,13 @@ Página 2 – Calidad Operativa:
 - Gestiones vs contactos vs promesas
 - Tabla operativa detallada
 
+Página 3 – Evolución del recupero mensual (tendencia general):
+- Evolución del recupero mensual
+- Evolución del recupero por agencia (líneas comparativas)
+- Ranking acumulado de agencias por recupero
+- Evolución del saldo actual de cartera
+- KPIs agregados del período (recupero total, eficiencia promedio, variaciones mensuales)
+
 ## 7. Métricas Clave
 
 Contactabilidad = Contactos / Gestiones  
